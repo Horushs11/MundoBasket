@@ -7,7 +7,7 @@ import '/src/App.css';
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 via-indigo-950 to-gray-900">
-      <div className="p-20 max-w-[1500px] mx-auto">
+      <div className="p-10 max-w-[1500px] mx-auto">
         <Analytics />
       <Routes>
         <Route path="/" element={<Home />} />
