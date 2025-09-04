@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Leyma Coruña",
+    "city": "A Coruña",
+    "short_code": "LEY",
+    "logo": "/logos/LEY.png",
+    "color": "#e45410  "
+  },
+  {
+    "id": 3,
+    "name": "Palmer Basket Mallorca",
+    "city": "Palma de Mallorca",
+    "short_code": "PAL",
+    "logo": "/logos/PAL.png",
+    "color": "#a2cecb"
+  },
+  {
+    "id": 4,
+    "name": "Melilla Ciudad del Deporte",
+    "city": "Melilla",
+    "short_code": "MEL",
+    "logo": "/logos/MEL.png",
+    "color": "#132d42"
+  },
+  {
+    "id": 5,
+    "name": "Fibwi Mallorca Bàsquet",
+    "city": "Palma de Mallorca",
+    "short_code": "FIB",
+    "logo": "/logos/FIB.png",
+    "color": "#1c3261"
+  },
+  {
+    "id": 6,
+    "name": "Alimerka Oviedo Baloncesto",
+    "city": "Oviedo",
+    "short_code": "OVI",
+    "logo": "/logos/OVI.png",
+    "color": "#fea539"
+  },
+  {
+    "id": 7,
+    "name": "Caja Rural CB Zamora",
+    "city": "Zamora",
+    "short_code": "ZAM",
+    "logo": "/logos/ZAM.png",
+    "color": "#2f7ebc"
+  },
+  {
+    "id": 8,
+    "name": "Club Ourense Baloncesto",
+    "city": "Ourense",
+    "short_code": "OUR",
+    "logo": "/logos/OUR.png",
+    "color": "#fec431"
+  },
+  {
+    "id": 9,
+    "name": "Flexicar Fuenlabrada",
+    "city": "Fuenlabrada",
+    "short_code": "FUE",
+    "logo": "/logos/FUE.png",
+    "color": "#ef7433"
+  },
+  {
+    "id": 10,
+    "name": "Grupo Alega Cantabria",
+    "city": "Torrelavega",
+    "short_code": "CANT",
+    "logo": "/logos/CANT.png",
+    "color": "#cd2d19"
+  },
+  {
+    "id": 11,
+    "name": "Odilo FC Cartagena CB",
+    "city": "Cartagena",
+    "short_code": "CAR",
+    "logo": "/logos/CAR.png",
+    "color": "#010001"
+  },
+  {
+    "id": 12,
+    "name": "Grupo Ureta Tizona Burgos",
+    "city": "Burgos",
+    "short_code": "BUR",
+    "logo": "/logos/BUR.webp",
+    "color": "#ff7e01"
+  },
+  {
+    "id": 13,
+    "name": "Hestia Menorca",
+    "city": "Maó (Menorca)",
+    "short_code": "MEN",
+    "logo": "/logos/MEN.png",
+    "color": "#0094a8"
+  },
+  {
+    "id": 14,
+    "name": "HLA Alicante",
+    "city": "Alicante",
+    "short_code": "ALI",
+    "logo": "/logos/ALI.png",
+    "color": "#194089"
+  },
+  {
+    "id": 15,
+    "name": "Inveready Gipuzkoa Basket",
+    "city": "San Sebastián",
+    "short_code": "GIP",
+    "logo": "/logos/GIP.png",
+    "color": "#011427"
+  },
+  {
+    "id": 16,
+    "name": "Movistar Estudiantes",
+    "city": "Madrid",
+    "short_code": "MAD",
+    "logo": "/logos/MAD.webp",
+    "color": "#03a2f5"
+  },
+  {
+    "id": 17,
+    "name": "Súper Agropal Palencia",
+    "city": "Palencia",
+    "short_code": "PALEN",
+    "logo": "/logos/PALEN.png",
+    "color": "#4c2b79"
+  },
+  {
+    "id": 18,
+    "name": "Obradoiro",
+    "city": "Santiago",
+    "short_code": "OBRA",
+    "logo": "/logos/OBRA.png",
+    "color": "#4c2b79"
+  }
+]

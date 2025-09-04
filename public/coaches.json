@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "first_name": "Carles",
+    "last_name": "Marco",
+    "birthdate": "1974-09-23",
+    "contract_year": 2027,
+    "team_id": 1
+  },
+  {
+    "id": 201,
+    "first_name": "Diego",
+    "last_name": "Epifanio",
+    "birthdate": "1978-05-25",
+    "contract_year": 2027,
+    "team_id": 18
+  },
+  {
+  "id": 1601,
+  "first_name": "Toni",
+  "last_name": "Ten",
+  "birthdate": "1980-09-11",
+  "contract_year": 2027,
+  "team_id": 16
+}
+
+]
