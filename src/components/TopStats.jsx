@@ -67,21 +67,21 @@ export default function TopStats({ players }) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-10">
-      <Card title="Top Scorers" accent="from-emerald-400 via-cyan-400 to-blue-500">
+      <Card title="Top Anotadores" accent="from-emerald-400 via-cyan-400 to-blue-500">
         {topPts.map((p, i) => (
           <Row key={p.id} p={p} value={p.stats.pts} unit="PPG" i={i} />
         ))}
         {!topPts.length && <p className="text-white/60">Sin datos todavía.</p>}
       </Card>
 
-      <Card title="Top Assisters" accent="from-emerald-400 via-cyan-400 to-blue-500">
+      <Card title="Top Asistentes" accent="from-emerald-400 via-cyan-400 to-blue-500">
         {topAst.map((p, i) => (
           <Row key={p.id} p={p} value={p.stats.ast} unit="APG" i={i} />
         ))}
         {!topAst.length && <p className="text-white/60">Sin datos todavía.</p>}
       </Card>
 
-      <Card title="Top Rebounders" accent="from-emerald-400 via-cyan-400 to-blue-500">
+      <Card title="Top Reboteadores" accent="from-emerald-400 via-cyan-400 to-blue-500">
         {topReb.map((p, i) => (
           <Row key={p.id} p={p} value={p.stats.reb} unit="RPG" i={i} />
         ))}
