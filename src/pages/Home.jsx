@@ -8,11 +8,11 @@ export default function Home() {
         <Link
           to="/PrimeraFEB"
           aria-label="Abrir página Primera FEB"
-          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8 rounded-2xl cursor-pointer
+          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8  cursor-pointer
                  focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
         >
           <div
-            className="absolute inset-0 bg-center bg-cover opacity-0 scale-105 transition-[opacity,transform,filter] duration-800 ease-out
+            className="absolute inset-0 bg-center bg-cover opacity-0  transition-[opacity,transform,filter] duration-800 ease-out
                    group-hover:opacity-100 group-hover:scale-100 group-active:opacity-100"
             style={{ backgroundImage: "url('/FondoFeb.jpg')" }}
           />
@@ -28,11 +28,11 @@ export default function Home() {
         <Link
           to="/Acb"
           aria-label="Abrir página ACB"
-          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8 rounded-2xl cursor-pointer
+          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8  cursor-pointer
                  focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
         >
           <div
-            className="absolute inset-0 bg-center bg-cover opacity-0 scale-105 transition-[opacity,transform,filter] duration-800 ease-out
+            className="absolute inset-0 bg-center bg-cover opacity-0  transition-[opacity,transform,filter] duration-800 ease-out
                    group-hover:opacity-100 group-hover:scale-100 group-active:opacity-100"
             style={{ backgroundImage: "url('/FondoAcb.jpg')" }}
           />
