@@ -1,63 +1,49 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  const [teams, setTeams] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch("/teams.json")
-      .then((r) => r.json())
-      .then((data) => setTeams(data || []))
-      .catch(() => setTeams([]))
-      .finally(() => setLoading(false));
-  }, []);
-
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
-      {/* Grid responsive */}
-      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {loading &&
-          Array.from({ length: 8 }).map((_, i) => (
-            <div
-              key={`skeleton-${i}`}
-              className="rounded-2xl bg-gray-800/50 animate-pulse aspect-[4/3]"
-            />
-          ))}
+    <div className="fixed inset-0 overflow-hidden">
+      <section className="h-full w-full grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2">
+        {/* Tarjeta FEB */}
+        <Link
+          to="/PrimeraFEB"
+          aria-label="Abrir página Primera FEB"
+          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8 rounded-2xl cursor-pointer
+                 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+        >
+          <div
+            className="absolute inset-0 bg-center bg-cover opacity-0 scale-105 transition-[opacity,transform,filter] duration-800 ease-out
+                   group-hover:opacity-100 group-hover:scale-100 group-active:opacity-100"
+            style={{ backgroundImage: "url('/FondoFeb.jpg')" }}
+          />
+          <div className="pointer-events-none absolute inset-0 bg-black/30 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100 group-active:opacity-100" />
+          <img
+            src="/Logo-feb.png"
+            alt="Primera FEB"
+            className="relative z-10 block object-contain max-h-full max-w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+          />
+        </Link>
 
-        {!loading && teams.map((t) => (
-          <Link
-            key={t.id}
-            to={`/team/${t.id}`}
-            aria-label={`Ver equipo ${t.name}`}
-            className="group block focus:outline-none"
-          >
-            <div
-              className="relative rounded-2xl bg-gray-900/60 p-4 sm:p-5 md:p-6 flex items-center justify-center aspect-[4/3] shadow-[0_0_15px_rgba(34,211,238,0.5)] border-2 border-cyan-400 transition transform motion-reduce:transform-none md:group-hover:-translate-y-1 md:hover:shadow-[0_0_20px_#22d3ee] focus:ring-2 focus:ring-cyan-400/80"
-            >
-              <div className="flex flex-col items-center justify-center text-center">
-                <img
-                  src={t.logo}
-                  alt={t.name}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 object-contain mb-3"
-                  sizes="(max-width: 640px) 7rem, (max-width: 768px) 8rem, 10rem"
-                />
-                <h3 className="mt-1 text-base sm:text-lg md:text-xl font-semibold text-white line-clamp-1">
-                  {t.name}
-                </h3>
-              </div>
-
-              {/* Border glow accent (decorativo) */}
-              <span
-                aria-hidden
-                className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-cyan-400/20"
-              />
-            </div>
-          </Link>
-        ))}
-      </div>
+        {/* Tarjeta ACB */}
+        <Link
+          to="/Acb"
+          aria-label="Abrir página ACB"
+          className="group relative min-h-0 overflow-hidden flex items-center justify-center p-4 sm:p-6 lg:p-8 rounded-2xl cursor-pointer
+                 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+        >
+          <div
+            className="absolute inset-0 bg-center bg-cover opacity-0 scale-105 transition-[opacity,transform,filter] duration-800 ease-out
+                   group-hover:opacity-100 group-hover:scale-100 group-active:opacity-100"
+            style={{ backgroundImage: "url('/FondoAcb.jpg')" }}
+          />
+          <div className="pointer-events-none absolute inset-0 bg-black/30 opacity-0 transition-opacity duration-500 ease-out group-hover:opacity-100 group-active:opacity-100" />
+          <img
+            src="/Logo-acb.png"
+            alt="ACB"
+            className="relative z-10 block object-contain max-h-full max-w-full transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+          />
+        </Link>
+      </section>
     </div>
   );
 }

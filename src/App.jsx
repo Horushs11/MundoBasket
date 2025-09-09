@@ -1,6 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
 import Home from "./pages/Home.jsx";
+import Acb from "./pages/Acb.jsx";
+import PrimeraFEB from "./pages/PrimeraFEB.jsx";
 import Team from "./pages/Team.jsx";
 import '/src/App.css';
 
@@ -11,6 +13,8 @@ export default function App() {
         <Analytics />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/Acb" element={<Acb />} />
+        <Route path="/PrimeraFEB" element={<PrimeraFEB />} />
         <Route path="/team/:id" element={<Team />} />
       </Routes>
       </div>

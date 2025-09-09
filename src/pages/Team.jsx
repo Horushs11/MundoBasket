@@ -54,7 +54,7 @@ export default function Team() {
         style={{ boxShadow: "0 0 15px rgba(34, 211, 238, 0.5)", border: "4px solid #22d3ee" }}
       >
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-white font-bold transform transition hover:scale-103 bg-gradient-to-br from-cyan-400 to-fuchsia-500 p-2 rounded-2xl">← Volver a equipos</Link>
+          <Link to="/PrimeraFEB" className="text-white font-bold transform transition hover:scale-103 bg-gradient-to-br from-cyan-400 to-fuchsia-500 p-2 rounded-2xl">← Volver a equipos</Link>
         </div>
 
         <header className="text-white text-center">
