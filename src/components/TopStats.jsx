@@ -18,7 +18,7 @@ function Card({ title, children, accent="from-cyan-400 via-fuchsia-500 to-emeral
     <div className="relative group">
       {/* Glow borde */}
       
-      <div className="relative  rounded-2xl bg-gray-900/70 border border-white/10 p-6 flex flex-col" style={{ boxShadow: "0 0 15px rgba(34, 211, 238, 0.5)", border: "4px solid #22d3ee" }}>
+      <div className="relative  rounded-2xl bg-gray-900/70 border border-white/10 p-6 flex flex-col" style={{ border: "2px solid #22d3ee" }}>
         <h3 className={cls(
           "text-2xl md:text-3xl font-extrabold tracking-wide text-transparent bg-clip-text",
           "bg-gradient-to-r", accent

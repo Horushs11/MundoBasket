@@ -51,7 +51,7 @@ export default function Team() {
     <div className="space-y-8">
       <div
         className="space-y-6 p-6 rounded-2xl bg-gray-900/60"
-        style={{ boxShadow: "0 0 15px rgba(34, 211, 238, 0.5)", border: "4px solid #22d3ee" }}
+        style={{ border: "2px solid #22d3ee" }}
       >
         <div className="flex items-center justify-between">
           <Link to="/PrimeraFEB" className="text-white font-bold transform transition hover:scale-103 bg-gradient-to-br from-cyan-400 to-fuchsia-500 p-2 rounded-2xl">← Volver a equipos</Link>
@@ -68,7 +68,7 @@ export default function Team() {
               />
               <h1
                 className="text-3xl font-extrabold tracking-wide"
-                style={{ color: "#22d3ee" }}
+                style={{ color: "#fff" }}
               >
                 {teamName}
               </h1>

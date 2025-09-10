@@ -33,7 +33,7 @@ export default function PrimeraFEB() {
             className="group block focus:outline-none"
           >
             <div
-              className="relative rounded-2xl bg-gray-900/60 p-4 sm:p-5 md:p-6 flex items-center justify-center aspect-[4/3] shadow-[0_0_15px_rgba(34,211,238,0.5)] border-2 border-cyan-400 transition transform motion-reduce:transform-none md:group-hover:-translate-y-1 md:hover:shadow-[0_0_20px_#22d3ee] focus:ring-2 focus:ring-cyan-400/80"
+              className="relative rounded-2xl bg-gray-900/60 p-4 sm:p-5 md:p-6 flex items-center justify-center aspect-[4/3]  border-2 border-cyan-400 transition transform motion-reduce:transform-none md:group-hover:-translate-y-1 md:hover:shadow-[0_0_10px_#22d3ee] focus:ring-2"
             >
               <div className="flex flex-col items-center justify-center text-center">
                 <img
@@ -49,7 +49,6 @@ export default function PrimeraFEB() {
                 </h3>
               </div>
 
-              {/* Border glow accent (decorativo) */}
               <span
                 aria-hidden
                 className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-cyan-400/20"

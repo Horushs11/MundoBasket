@@ -53,7 +53,7 @@ export default function StatsTable({ players, teamId }) {
         onClick={() => setSort(k)}
         className={
           "px-3 py-2 text-left text-xs sm:text-sm font-bold text-white/90 whitespace-nowrap select-none " +
-          "cursor-pointer hover:text-cyan-300 focus-within:text-cyan-300 " +
+          "cursor-pointer" +
           className
         }
       >
@@ -100,12 +100,12 @@ export default function StatsTable({ players, teamId }) {
                 key={p.id}
                 className={(i % 2 === 0 ? "bg-gray-800/60" : "bg-gray-900/60") + " hover:bg-gray-700/70"}
               >
-                {/* Nombre sticky para facilitar el scroll horizontal */}
+                
                 <td className="px-3 py-2 font-semibold sticky left-0 bg-inherit backdrop-blur supports-[backdrop-filter]:bg-gray-900/40">
                   <div className="flex items-center gap-2 max-w-[14rem]">
                     <span className="truncate" title={p.name}>{p.name}</span>
                   </div>
-                  {/* Fila compacta extra en móviles */}
+                  
                   <div className="mt-1 text-xs text-white/70 sm:hidden">
                     <span>PTS {fmt(p.stats.pts, 1)}</span>
                     <span className="mx-2">·</span>
