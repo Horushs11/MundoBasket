@@ -1,0 +1,146 @@
+[
+  {
+    "id": 20,
+    "name": "Saski Baskonia",
+    "city": "Vitoria-Gasteiz",
+    "short_code": "BAS",
+    "logo": "/logos/BAS.png",
+    "color": "#e45410"
+  },
+  {
+    "id": 21,
+    "name": "Basquet Girona",
+    "city": "Girona",
+    "short_code": "GIR",
+    "logo": "/logos/GIR.png",
+    "color": "#a2cecb"
+  },
+  {
+    "id": 22,
+    "name": "Baxi Manresa",
+    "city": "Manresa",
+    "short_code": "MAN",
+    "logo": "/logos/MAN.png",
+    "color": "#132d42"
+  },
+  {
+    "id": 23,
+    "name": "Casademont Zaragoza",
+    "city": "Zaragoza",
+    "short_code": "ZAR",
+    "logo": "/logos/ZAR.png",
+    "color": "#1c3261"
+  },
+  {
+    "id": 24,
+    "name": "Coviran Granada",
+    "city": "Granada",
+    "short_code": "GRA",
+    "logo": "/logos/GRA.png",
+    "color": "#fea539"
+  },
+  {
+    "id": 25,
+    "name": "Gran Canaria",
+    "city": "Zamora",
+    "short_code": "CAN",
+    "logo": "/logos/CAN.png",
+    "color": "#2f7ebc"
+  },
+  {
+    "id": 26,
+    "name": "Barcelona",
+    "city": "Ourense",
+    "short_code": "BAR",
+    "logo": "/logos/BAR.png",
+    "color": "#fec431"
+  },
+  {
+    "id": 27,
+    "name": "Hiopos Lleida",
+    "city": "Fuenlabrada",
+    "short_code": "LLE",
+    "logo": "/logos/LLE.png",
+    "color": "#ef7433"
+  },
+  {
+    "id": 28,
+    "name": "Joventut Badalona",
+    "city": "Torrelavega",
+    "short_code": "BAD",
+    "logo": "/logos/BAD.png",
+    "color": "#cd2d19"
+  },
+  {
+    "id": 29,
+    "name": "CB Canarias",
+    "city": "Cartagena",
+    "short_code": "TEN",
+    "logo": "/logos/TEN.png",
+    "color": "#010001"
+  },
+  {
+    "id": 30,
+    "name": "San Pablo Burgos",
+    "city": "Burgos",
+    "short_code": "SAN",
+    "logo": "/logos/SAN.png",
+    "color": "#ff7e01"
+  },
+  {
+    "id": 31,
+    "name": "Morabanc Andorra",
+    "city": "Maó (Menorca)",
+    "short_code": "AND",
+    "logo": "/logos/AND.png",
+    "color": "#0094a8"
+  },
+  {
+    "id": 32,
+    "name": "Real Madrid",
+    "city": "Alicante",
+    "short_code": "REA",
+    "logo": "/logos/REA.png",
+    "color": "#194089"
+  },
+  {
+    "id": 33,
+    "name": "CB Breogán",
+    "city": "San Sebastián",
+    "short_code": "BREO",
+    "logo": "/logos/BREO.png",
+    "color": "#011427"
+  },
+  {
+    "id": 34,
+    "name": "Bilbao Basket",
+    "city": "Madrid",
+    "short_code": "BIL",
+    "logo": "/logos/BIL.png",
+    "color": "#03a2f5"
+  },
+  {
+    "id": 35,
+    "name": "UCAM Murcia",
+    "city": "Palencia",
+    "short_code": "UCAM",
+    "logo": "/logos/UCAM.png",
+    "color": "#4c2b79"
+  },
+  {
+    "id": 36,
+    "name": "Valecia Basket",
+    "city": "Santiago",
+    "short_code": "VAL",
+    "logo": "/logos/VAL.png",
+    "color": "#4c2b79"
+  },
+  {
+    "id": 37,
+    "name": "Unicaja Malaga",
+    "city": "Santiago",
+    "short_code": "UNI",
+    "logo": "/logos/UNI.png",
+    "color": "#4c2b79"
+  }
+]
