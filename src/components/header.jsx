@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [hidden, setHidden] = useState(false);
@@ -24,10 +25,10 @@ function Header() {
           : "bg-transparent border-transparent"}`}>
         <nav className="mx-auto max-w-7xl h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between"
              style={{ paddingTop: "env(safe-area-inset-top)" }}>
-          <a href="/" className="font-semibold"><img src="/LogoMundo.png" alt="Logo" className="h-36 w-36 md:h-48 md:w-48"/></a>
+          <a href="/" className="font-semibold"><img src="/LogoMundo.png" alt="Logo" className="h-40 w-40 md:h-56 md:w-56"/></a>
           <div className="flex items-center gap-6 text-sm">
-            <a href="/primera-feb" className="opacity-80 text-white text-sm ">Primera FEB</a>
-            <a href="/acb" className="hover opacity-80 text-white text-sm">ACB</a>
+            <Link to={"/primera-feb"} className="hover-underline opacity-80 text-white text-sm sm:text-base">Primera FEB</Link>
+            <Link to={"/acb"} className="hover-underline opacity-80 text-white text-sm sm:text-base">ACB</Link>
           </div>
         </nav>
       </div>
