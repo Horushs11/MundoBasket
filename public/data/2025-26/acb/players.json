@@ -3494,20 +3494,6 @@
     "stats": { "pts": 0, "reb": 0, "ast": 0, "games": 0, "minutes": 0, "three_pct": 0, "fg_pct": 0, "ft_pct": 0, "ro": 0, "br": 0, "bp": 0, "tap": 0, "fa": 0, "val": 0 }
   },
   {
-    "id": 3517,
-    "team_id": 35,
-    "number": 10,
-    "first_name": "Fabián",
-    "last_name": "Flores",
-    "position": "Pivot",
-    "license": "JFL",
-    "birthdate": "2005-02-25",
-    "height_cm": 215,
-    "contract_year": 2027,
-    "age": 20,
-    "stats": { "pts": 0, "reb": 0, "ast": 0, "games": 0, "minutes": 0, "three_pct": 0, "fg_pct": 0, "ft_pct": 0, "ro": 0, "br": 0, "bp": 0, "tap": 0, "fa": 0, "val": 0 }
-  },
-  {
     "id": 3601,
     "team_id": 36,
     "number": 5,
