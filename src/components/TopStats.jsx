@@ -1,15 +1,15 @@
 import { useMemo } from "react";
 
 function cls(...xs) { return xs.filter(Boolean).join(" "); }
-function initials(p) {
-  const n = `${p.first_name ?? ""} ${p.last_name ?? ""}`.trim().split(/\s+/);
-  return (n[0]?.[0] ?? "") + (n[1]?.[0] ?? "");
-}
+// function initials(p) {
+//   const n = `${p.first_name ?? ""} ${p.last_name ?? ""}`.trim().split(/\s+/);
+//   return (n[0]?.[0] ?? "") + (n[1]?.[0] ?? "");
+// }
 function rankBadge(i) {
   const base = "inline-flex items-center justify-center rounded-full font-bold";
-  if (i === 0) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-yellow-400 text-black shadow")}>1</span>;
-  if (i === 1) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-gray-300 text-black shadow")}>2</span>;
-  if (i === 2) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-amber-700 text-white shadow")}>3</span>;
+  if (i === 0) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-cyan-500 text-black shadow")}>1</span>;
+  if (i === 1) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-cyan-500 text-black shadow")}>2</span>;
+  if (i === 2) return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-cyan-500 text-black shadow")}>3</span>;
   return <span className={cls(base, "w-7 h-7 sm:w-8 sm:h-8 text-xs sm:text-sm bg-cyan-500 text-black shadow")}>{i+1}</span>;
 }
 
@@ -38,9 +38,9 @@ function Row({ p, value, unit, i }) {
     <div className="flex items-center gap-3 rounded-xl bg-white/5 border border-white/10 px-3 py-2 sm:px-3.5 sm:py-2.5 hover:bg-white/10 transition">
       {rankBadge(i)}
       {/* Avatar con iniciales */}
-      <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-br from-cyan-400 to-fuchsia-500 text-black font-bold flex items-center justify-center">
+      {/* <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-gradient-to-br from-cyan-400 to-fuchsia-500 text-black font-bold flex items-center justify-center">
         <span className="text-xs sm:text-sm">{initials(p)}</span>
-      </div>
+      </div> */}
       <div className="flex-1 min-w-0">
         <div className="text-white font-semibold truncate text-sm sm:text-base">
           {p.first_name} {p.last_name}
